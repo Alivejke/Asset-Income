@@ -1,0 +1,66 @@
+/* line 4, ../../dev/scss/counter.scss */
+.counter {
+  line-height: 3.35714em;
+  vertical-align: middle;
+  margin: 1.28571em 0 0 1.64286em;
+}
+/* line 8, ../../dev/scss/counter.scss */
+.counter > span {
+  display: inline-block;
+  vertical-align: middle;
+}
+@media screen and (max-width: 500px) {
+  /* line 4, ../../dev/scss/counter.scss */
+  .counter {
+    margin: 1.28571em 0 0 0.71429em;
+  }
+}
+
+/* line 19, ../../dev/scss/counter.scss */
+.counter_text,
+.counter_text_double {
+  font-size: 1.04786em;
+  line-height: 1.09066em;
+}
+
+/* line 25, ../../dev/scss/counter.scss */
+.counter_text {
+  margin-right: 0.6135em;
+}
+
+/* line 30, ../../dev/scss/counter.scss */
+.counter_text_double {
+  width: 5.45331em;
+}
+
+/* line 35, ../../dev/scss/counter.scss */
+.counter_value_field {
+  line-height: 2.04167em;
+  padding-left: 0.33333em;
+  font-size: 1.63599em;
+  letter-spacing: 0.64em;
+  font-family: "Myriad Pro", "Lucida Sans", "Segoe UI", Calibri, Arial, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+}
+@media screen and (max-width: 500px) {
+  /* line 35, ../../dev/scss/counter.scss */
+  .counter_value_field {
+    letter-spacing: 0.65em;
+  }
+}
+
+/* line 51, ../../dev/scss/counter.scss */
+.counter_value {
+  z-index: 1;
+  position: relative;
+}
+
+/* line 56, ../../dev/scss/counter.scss */
+.counter_image {
+  width: 7.29167em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

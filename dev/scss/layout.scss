@@ -1,0 +1,44 @@
+@import "compass";
+@import "_base";
+
+html {
+	height: 100%;
+}
+
+body {
+	font-size: $base-font-size;
+	line-height: em($base-line-height);
+	font-family: $base-font-family;
+	min-height: 100%;
+	background: #f9fcff;
+	@include background-image(radial-gradient(center, ellipse cover, #f9fcff 0%, #dae0e6 100%));
+
+	@media screen and (max-width: 955px) {
+		font-size: $base-font-size - 1px;
+	}
+
+	@media screen and (max-width: 895px) {
+		font-size: $base-font-size - 2px;
+	}
+
+	@media screen and (max-width: 825px) {
+		font-size: $base-font-size - 3px;
+	}
+
+	@media screen and (max-width: 755px) {
+		font-size: $base-font-size - 4px;
+	}
+
+	@media screen and (max-width: 685px) {
+		font-size: $base-font-size - 5px;
+	}
+
+	@media screen and (max-width: 610px) {
+		font-size: $base-font-size - 1px;
+	}
+}
+
+#conteiner {
+	max-width: $container-width;
+	margin: 0 auto;
+}

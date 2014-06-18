@@ -1,0 +1,11 @@
+@import "_base";
+
+@function em($target, $context: $base-font-size) {
+	@if $target == 0 { @return 0 }
+	@return $target / $context + 0em;
+}
+
+@function persentage($target, $context: $container-width) {
+	@if $target == 0 { @return 0 }
+	@return $target / $context * 100%;
+}

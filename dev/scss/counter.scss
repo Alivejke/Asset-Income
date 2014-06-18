@@ -1,0 +1,61 @@
+@import "_base";
+@import "_minins";
+
+.counter {
+	line-height: em(47px);
+	vertical-align: middle;
+	margin: em(18px) 0 0 em(23px);
+	> span {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	@media screen and (max-width: 500px) {
+		margin: em(18px) 0 0 em(10px);
+	}
+}
+
+.counter_text,
+.counter_text_double {
+	$font-size: 14.67px;
+	font-size: em($font-size);
+	line-height: em(16px, $font-size);
+}
+
+.counter_text {
+	$font-size: 14.67px;
+	margin-right: em(9px, $font-size);
+}
+
+.counter_text_double {
+	$font-size: 14.67px;
+	width: em(80px, $font-size);
+}
+
+.counter_value_field {
+	$font-size: 24px;
+	line-height: em(49px, $font-size);
+	padding-left: em(8px, $font-size);
+	font-size: em($font-size, 14.67px);
+	letter-spacing: 0.64em;
+	font-family: $base-font-family-alt;
+	font-weight: bold;
+	color: #ffffff;
+	position: relative;
+
+	@media screen and (max-width: 500px) {
+		letter-spacing: 0.65em;
+	}
+}
+
+.counter_value {
+	z-index: 1;
+	position: relative;
+}
+
+.counter_image {
+	width: em(175px, 24px);
+	position: absolute;
+	top: 0;
+	left: 0;
+}

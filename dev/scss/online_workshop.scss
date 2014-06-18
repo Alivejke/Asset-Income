@@ -1,0 +1,33 @@
+@import "compass";
+@import "_base";
+@import "_minins";
+
+.online_workshop {
+	width: persentage(325px);
+	margin-top: em(123px);
+	position: relative;
+	z-index: 2;
+
+	@media screen and (max-width: 610px) {
+		width: 70%;
+		margin: em(60px) auto 0;
+		text-align: center;
+	}
+
+	@media screen and (max-width: 500px) {
+		width: 90%;
+		margin: em(25px) auto 0;
+		text-align: center;
+	}
+}
+
+.intrigue_text {
+	$font-size: 24px;
+	background: $base-color-yellow;
+	font-weight: bold;
+	font-size: em($font-size);
+	line-height: em(26px, $font-size);
+	letter-spacing: em(1px, $font-size);
+	position: relative;
+	left: em(6px, $font-size);
+}

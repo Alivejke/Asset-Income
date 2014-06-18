@@ -1,0 +1,24 @@
+@import "_base";
+@import "_minins";
+
+#content {
+	position: relative;
+	padding-top: 1px;
+	margin-top: -1px;
+}
+
+.decor_cool_man {
+	position: absolute;
+	top: em(37px);
+	right: persentage(-98px);
+	width: persentage(838px);
+
+	img {
+		width: 100%;
+		display: block;
+	}
+
+	@media screen and (max-width: 610px) {
+		display: none;
+	}
+}

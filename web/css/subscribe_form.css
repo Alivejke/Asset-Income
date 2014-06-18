@@ -1,0 +1,39 @@
+/* line 5, ../../dev/scss/subscribe_form.scss */
+.subscribe_form {
+  background: #f7f8f8 url(/img/subscription_form_fone.jpg) no-repeat bottom right;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #cfcfcf;
+  padding: 1.42857em 2.14286em 1.42857em 2.21429em;
+  margin-top: 1.21429em;
+  position: relative;
+  text-align: left;
+}
+/* line 14, ../../dev/scss/subscribe_form.scss */
+.subscribe_form .label_simple_name {
+  margin-left: 0.75019em;
+}
+/* line 18, ../../dev/scss/subscribe_form.scss */
+.subscribe_form .btn {
+  margin-top: 0.71429em;
+}
+
+/* line 23, ../../dev/scss/subscribe_form.scss */
+.subscribe_form_hint {
+  font-family: "Myriad Pro", "Lucida Sans", "Segoe UI", Calibri, Arial, sans-serif;
+  font-size: 1.04786em;
+  line-height: 0.95433em;
+  margin-top: 0.47716em;
+}
+
+/* line 31, ../../dev/scss/subscribe_form.scss */
+.decor_free {
+  width: 5.85714em;
+  height: 5.85714em;
+  position: absolute;
+  top: -0.35714em;
+  right: -0.35714em;
+}

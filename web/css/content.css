@@ -1,0 +1,25 @@
+/* line 4, ../../dev/scss/content.scss */
+#content {
+  position: relative;
+  padding-top: 1px;
+  margin-top: -1px;
+}
+
+/* line 10, ../../dev/scss/content.scss */
+.decor_cool_man {
+  position: absolute;
+  top: 2.64286em;
+  right: -10.20833%;
+  width: 87.29167%;
+}
+/* line 16, ../../dev/scss/content.scss */
+.decor_cool_man img {
+  width: 100%;
+  display: block;
+}
+@media screen and (max-width: 610px) {
+  /* line 10, ../../dev/scss/content.scss */
+  .decor_cool_man {
+    display: none;
+  }
+}

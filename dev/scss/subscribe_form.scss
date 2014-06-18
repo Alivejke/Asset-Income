@@ -1,0 +1,38 @@
+@import "compass";
+@import "_base";
+@import "_minins";
+
+.subscribe_form {
+	background: #f7f8f8 url(/img/subscription_form_fone.jpg) no-repeat bottom right;
+	@include border-radius(4px);
+	border: 1px solid #cfcfcf;
+	padding: em(20px) em(30px) em(20px) em(31px);
+	margin-top: em(17px);
+	position: relative;
+	text-align: left;
+
+	.label_simple_name {
+		margin-left: em(10px, 13.33px);
+	}
+
+	.btn {
+		margin-top: em(10px);
+	}
+}
+
+.subscribe_form_hint {
+	$font-size: 14.67px;
+	font-family: $base-font-family-alt;
+	font-size: em($font-size);
+	line-height: em(14px, $font-size);
+	margin-top: em(7px, $font-size);
+}
+
+.decor_free {
+	$size: 82px;
+	width: em($size);
+	height: em($size);
+	position: absolute;
+	top: em(-5px);
+	right: em(-5px);
+}

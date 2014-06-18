@@ -1,0 +1,65 @@
+@import "compass";
+@import "_base";
+@import "_minins";
+
+.block_title {
+	$font-size: 24px;
+	font-weight: normal;
+	font-size: em($font-size);
+	line-height: em(26.67px, $font-size);
+	margin-bottom: em(8px, $font-size);
+	letter-spacing: em(2px, $font-size);
+	margin-left: em(7px, $font-size);
+}
+
+.label_simple {
+	display: inline-block;
+	width: 100%;
+}
+
+.label_simple_name {
+	$font-size: 13.33px;
+	font-size: em($font-size);
+	line-height: em(19.33px, $font-size);
+	margin: 0;
+}
+
+.input_simple {
+	$font-size: 12px;
+	font-size: em($font-size);
+	line-height: em(14px, $font-size);
+	padding: em(10px, $font-size) em(10px, $font-size);
+	@include box-shadow(inset 0px em(3px, $font-size) em(6px, $font-size) 0px rgba(0, 2, 4, 0.13));
+	@include border-radius(5px);
+	border: 1px solid #cacaca;
+	background: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.btn {
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	border: none;
+	@include box-shadow(0px 1px 0px 0px rgba(41, 85, 9, 1));
+	@include border-radius(5px);
+	font-weight: bold;
+	text-transform: uppercase;
+	$font-size: 12px;
+	font-size: em($font-size);
+	line-height: em(36px, $font-size);
+	padding: 0;
+}
+
+.btn_success {
+	background: #3a7d0e;
+	@include background-image(linear-gradient(to top, #3a7d0e, #94d026));
+	&:hover {
+		@include background-image(linear-gradient(to top, lighten(#3a7d0e, 3%), lighten(#94d026, 3%)));
+	}
+	&:active {
+		@include background-image(linear-gradient(to top, #94d026, #3a7d0e));
+	}
+}
